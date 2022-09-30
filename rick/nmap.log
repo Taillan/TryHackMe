@@ -1,0 +1,54 @@
+# Nmap 7.92 scan initiated Thu Sep 15 03:49:21 2022 as: nmap -sC -sV -A -oN nmap.log 10-10-87-95.p.thmlabs.com
+Nmap scan report for 10-10-87-95.p.thmlabs.com (54.246.5.175)
+Host is up (0.0048s latency).
+rDNS record for 54.246.5.175: ec2-54-246-5-175.eu-west-1.compute.amazonaws.com
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 c5:fb:55:44:5a:04:5a:2a:66:0a:12:86:9f:20:0a:1c (RSA)
+|   256 92:98:91:e5:36:53:d9:59:fc:69:71:ad:45:65:23:d2 (ECDSA)
+|_  256 16:52:7c:f1:b3:89:24:2a:fc:c7:e9:68:de:33:eb:ca (ED25519)
+80/tcp   open  http     nginx 1.14.0 (Ubuntu)
+|_http-title: Rick is sup4r cool
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+443/tcp  open  ssl/http nginx 1.14.0 (Ubuntu)
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-title: Rick is sup4r cool
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+| ssl-cert: Subject: commonName=*.p.thmlabs.com
+| Subject Alternative Name: DNS:*.p.thmlabs.com
+| Not valid before: 2022-07-31T05:31:09
+|_Not valid after:  2022-10-29T05:31:08
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+8443/tcp open  ssl/http nginx 1.14.0 (Ubuntu)
+|_http-title: 502 Bad Gateway
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+| ssl-cert: Subject: commonName=*.p.thmlabs.com
+| Subject Alternative Name: DNS:*.p.thmlabs.com
+| Not valid before: 2022-07-31T05:31:09
+|_Not valid after:  2022-10-29T05:31:08
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (98%), QEMU (93%), Bay Networks embedded (88%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450
+Aggressive OS guesses: Oracle Virtualbox (98%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.37 ms 10.0.2.2
+2   0.35 ms ec2-54-246-5-175.eu-west-1.compute.amazonaws.com (54.246.5.175)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Sep 15 03:50:14 2022 -- 1 IP address (1 host up) scanned in 53.98 seconds
