@@ -114,3 +114,9 @@ information_schema
 
 contains information about all the databases and tables the user has access to
 
+
+## osint 
+
+```bash
+exiftool WindowsXP.jpg  
+```
