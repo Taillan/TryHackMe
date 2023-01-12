@@ -124,6 +124,8 @@ exiftool WindowsXP.jpg
 ## Steganographie
 
 ```
+mogrify -format jpg important.png
+
 steghide extract –sf image.jpeg
 stegseek hellp.jpg /opt/wordlist/common.tx
 ```
