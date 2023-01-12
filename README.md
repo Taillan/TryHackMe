@@ -24,11 +24,11 @@ Utilitaire :
 
 [Liste des exploit avec permission](https://gtfobins.github.io/)
 
-```
-Find all SUID files:
+```bash
+Find all SUID files: "fichier executable avec une autre perm que ton user (root)"
 find / -perm -4000 -print 2>>/dev/null
 Find all SGID files:
-find / -perm -2000 -print 
+find / -perm -2000 -print 2>>/dev/null
 ```
 
 
@@ -67,7 +67,7 @@ stty raw -echo; fg
 
 *Si accés a l'uppload de fichier penssé a upload un fichier reverse php ?*
 
-**Ne pas oublier d'écouter le port**
+**Ne pas oublier d'écouter le porthttps://tryhackme.com/room/metasploitintro**
 
 ```
 nc -lvp 4242
@@ -129,5 +129,21 @@ mogrify -format jpg important.png
 steghide extract –sf image.jpeg
 stegseek hellp.jpg /opt/wordlist/common.tx
 ```
+
+
+
+## Windows SMB
+
+https://tryhackme.com/room/metasploitintro
+
+smbclient -L $IP 
+nmblookup -A $IP 
+
+
+
+msfconsole
+Search   *smb/netbios*
+use *auxiliary/scanner/netbios/nbname*
+
 
 
