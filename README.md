@@ -119,6 +119,7 @@ contains information about all the databases and tables the user has access to
 
 ```bash
 exiftool WindowsXP.jpg  
+```
 
 ## Steganographie
 
@@ -127,4 +128,4 @@ steghide extract –sf image.jpeg
 stegseek hellp.jpg /opt/wordlist/common.tx
 ```
 
-```
+
