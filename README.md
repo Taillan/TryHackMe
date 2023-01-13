@@ -25,7 +25,7 @@ Utilitaire :
 [Liste des exploit avec permission](https://gtfobins.github.io/)
 
 ```bash
-Find all SUID files: "fichier executable avec une autre perm que ton user (root)"
+Find all SUID files: "fichier executable avec une autre perm que ton user"
 find / -perm -4000 -print 2>>/dev/null
 Find all SGID files:
 find / -perm -2000 -print 2>>/dev/null

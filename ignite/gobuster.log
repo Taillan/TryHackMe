@@ -1,0 +1,180 @@
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.190.23:8080/manager/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/12 15:46:39 Starting gobuster in directory enumeration mode
+===============================================================
+
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.190.23
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/12 15:46:47 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.php                 (Status: 403) [Size: 291]
+[2K/.html                (Status: 403) [Size: 292]
+[2K/.hta                 (Status: 403) [Size: 291]
+[2K/.hta.html            (Status: 403) [Size: 296]
+[2K/.hta.json            (Status: 403) [Size: 296]
+[2K/.hta.txt             (Status: 403) [Size: 295]
+[2K/.hta.php             (Status: 403) [Size: 295]
+[2K/.htaccess.json       (Status: 403) [Size: 301]
+[2K/.htaccess.html       (Status: 403) [Size: 301]
+[2K/.htaccess.txt        (Status: 403) [Size: 300]
+[2K/.htaccess            (Status: 403) [Size: 296]
+[2K/.htpasswd.html       (Status: 403) [Size: 301]
+[2K/.htaccess.php        (Status: 403) [Size: 300]
+[2K/.htpasswd.txt        (Status: 403) [Size: 300]
+[2K/.htpasswd.json       (Status: 403) [Size: 301]
+[2K/.htpasswd            (Status: 403) [Size: 296]
+[2K/.htpasswd.php        (Status: 403) [Size: 300]
+[2K/@                    (Status: 400) [Size: 1134]
+[2K/@.html               (Status: 400) [Size: 1134]
+[2K/@.php                (Status: 400) [Size: 1134]
+[2K/@.json               (Status: 400) [Size: 1134]
+[2K/@.txt                (Status: 400) [Size: 1134]
+[2K/0                    (Status: 200) [Size: 16595]
+[2K/assets               (Status: 301) [Size: 313] [--> http://10.10.190.23/assets/]
+[2K/composer.json        (Status: 200) [Size: 193]
+[2K/home                 (Status: 200) [Size: 16595]
+[2K/index                (Status: 200) [Size: 16595]
+[2K/index.php            (Status: 200) [Size: 16595]
+[2K/index.php            (Status: 200) [Size: 16595]
+
+[!] Keyboard interrupt detected, terminating.
+
+===============================================================
+2023/01/12 16:01:10 Finished
+===============================================================
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.190.23
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              json,txt,php,html
+[+] Timeout:                 10s
+===============================================================
+2023/01/12 16:02:15 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.php                 (Status: 403) [Size: 291]
+[2K/.html                (Status: 403) [Size: 292]
+[2K/.hta                 (Status: 403) [Size: 291]
+[2K/.hta.json            (Status: 403) [Size: 296]
+[2K/.hta.txt             (Status: 403) [Size: 295]
+[2K/.htaccess.html       (Status: 403) [Size: 301]
+[2K/.hta.php             (Status: 403) [Size: 295]
+[2K/.htaccess            (Status: 403) [Size: 296]
+[2K/.htaccess.json       (Status: 403) [Size: 301]
+[2K/.htpasswd.html       (Status: 403) [Size: 301]
+[2K/.htaccess.php        (Status: 403) [Size: 300]
+[2K/.htpasswd.json       (Status: 403) [Size: 301]
+[2K/.htaccess.txt        (Status: 403) [Size: 300]
+[2K/.htpasswd            (Status: 403) [Size: 296]
+[2K/.hta.html            (Status: 403) [Size: 296]
+[2K/.htpasswd.txt        (Status: 403) [Size: 300]
+[2K/.htpasswd.php        (Status: 403) [Size: 300]
+
+[!] Keyboard interrupt detected, terminating.
+
+===============================================================
+2023/01/12 16:02:21 Finished
+===============================================================
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.190.23
+[+] Method:                  GET
+[+] Threads:                 4
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/12 16:03:16 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.html                (Status: 403) [Size: 292]
+[2K/.php                 (Status: 403) [Size: 291]
+[2K/.hta                 (Status: 403) [Size: 291]
+[2K/.hta.txt             (Status: 403) [Size: 295]
+[2K/.hta.json            (Status: 403) [Size: 296]
+[2K/.hta.php             (Status: 403) [Size: 295]
+[2K/.hta.html            (Status: 403) [Size: 296]
+[2K/.htaccess.json       (Status: 403) [Size: 301]
+[2K/.htaccess.html       (Status: 403) [Size: 301]
+[2K/.htaccess            (Status: 403) [Size: 296]
+[2K/.htaccess.txt        (Status: 403) [Size: 300]
+[2K/.htpasswd.txt        (Status: 403) [Size: 300]
+[2K/.htpasswd            (Status: 403) [Size: 296]
+[2K/.htaccess.php        (Status: 403) [Size: 300]
+[2K/.htpasswd.json       (Status: 403) [Size: 301]
+[2K/.htpasswd.html       (Status: 403) [Size: 301]
+[2K/.htpasswd.php        (Status: 403) [Size: 300]
+
+[!] Keyboard interrupt detected, terminating.
+
+===============================================================
+2023/01/12 16:03:21 Finished
+===============================================================
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.190.23
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/12 16:04:03 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.html                (Status: 403) [Size: 292]
+[2K/.php                 (Status: 403) [Size: 291]
+[2K/.hta                 (Status: 403) [Size: 291]
+[2K/.hta.php             (Status: 403) [Size: 295]
+[2K/.hta.txt             (Status: 403) [Size: 295]
+[2K/.hta.html            (Status: 403) [Size: 296]
+[2K/.htaccess.html       (Status: 403) [Size: 301]
+[2K/.htaccess            (Status: 403) [Size: 296]
+[2K/.hta.json            (Status: 403) [Size: 296]
+[2K/.htaccess.json       (Status: 403) [Size: 301]
+[2K/.htaccess.php        (Status: 403) [Size: 300]
+[2K/.htaccess.txt        (Status: 403) [Size: 300]
+[2K/.htpasswd            (Status: 403) [Size: 296]
+[2K/.htpasswd.php        (Status: 403) [Size: 300]
+[2K/.htpasswd.txt        (Status: 403) [Size: 300]
+[2K/.htpasswd.json       (Status: 403) [Size: 301]
+[2K/.htpasswd.html       (Status: 403) [Size: 301]
+
+[!] Keyboard interrupt detected, terminating.
+
+===============================================================
+2023/01/12 16:04:09 Finished
+===============================================================
