@@ -145,5 +145,8 @@ msfconsole
 Search   *smb/netbios*
 use *auxiliary/scanner/netbios/nbname*
 
+## FTP
 
+medusa -h $IP -U user.txt -P ./password.txt  -M ftp
+**hydra -L username.txt -P password.txt ftp://$IP**
 

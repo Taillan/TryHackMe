@@ -1,0 +1,1 @@
+1. Find a file called layer3.txt, its password is james.

@@ -1,0 +1,174 @@
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.161.239
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              json,txt,php,html
+[+] Timeout:                 10s
+===============================================================
+2023/01/13 10:38:49 Starting gobuster in directory enumeration mode
+===============================================================
+
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.161.239
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/13 10:39:24 Starting gobuster in directory enumeration mode
+===============================================================
+
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.161.239
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/13 10:39:38 Starting gobuster in directory enumeration mode
+===============================================================
+
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.161.239
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/13 10:41:41 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.html                (Status: 403) [Size: 278]
+[2K/.php                 (Status: 403) [Size: 278]
+[2K/.hta                 (Status: 403) [Size: 278]
+[2K/.hta.html            (Status: 403) [Size: 278]
+[2K/.hta.json            (Status: 403) [Size: 278]
+[2K/.hta.php             (Status: 403) [Size: 278]
+[2K/.htaccess.json       (Status: 403) [Size: 278]
+[2K/.htaccess            (Status: 403) [Size: 278]
+[2K/.hta.txt             (Status: 403) [Size: 278]
+[2K/.htaccess.txt        (Status: 403) [Size: 278]
+[2K/.htaccess.php        (Status: 403) [Size: 278]
+[2K/.htaccess.html       (Status: 403) [Size: 278]
+[2K/.htpasswd            (Status: 403) [Size: 278]
+[2K/.htpasswd.txt        (Status: 403) [Size: 278]
+[2K/.htpasswd.html       (Status: 403) [Size: 278]
+[2K/.htpasswd.json       (Status: 403) [Size: 278]
+[2K/.htpasswd.php        (Status: 403) [Size: 278]
+[2K/0                    (Status: 301) [Size: 0] [--> http://10.10.161.239/0/]
+[2K/admin                (Status: 302) [Size: 0] [--> http://blog.thm/wp-admin/]
+[2K/atom                 (Status: 301) [Size: 0] [--> http://10.10.161.239/feed/atom/]
+[2K/dashboard            (Status: 302) [Size: 0] [--> http://blog.thm/wp-admin/]
+[2K/embed                (Status: 301) [Size: 0] [--> http://10.10.161.239/embed/]
+[2K/favicon.ico          (Status: 200) [Size: 0]
+[2K/feed                 (Status: 301) [Size: 0] [--> http://10.10.161.239/feed/]
+[2K/index.php            (Status: 301) [Size: 0] [--> http://10.10.161.239/]
+[2K/index.php            (Status: 301) [Size: 0] [--> http://10.10.161.239/]
+[2K/license.txt          (Status: 200) [Size: 19935]
+[2K/login                (Status: 302) [Size: 0] [--> http://blog.thm/wp-login.php]
+[2K/page1                (Status: 301) [Size: 0] [--> http://10.10.161.239/]
+[2K/rdf                  (Status: 301) [Size: 0] [--> http://10.10.161.239/feed/rdf/]
+[2K/readme.html          (Status: 200) [Size: 7415]
+[2K/robots.txt           (Status: 200) [Size: 67]
+[2K/robots.txt           (Status: 200) [Size: 67]
+[2K/rss                  (Status: 301) [Size: 0] [--> http://10.10.161.239/feed/]
+[2K/rss2                 (Status: 301) [Size: 0] [--> http://10.10.161.239/feed/]
+[2K/server-status        (Status: 403) [Size: 278]
+[2K/system-admin.html    (Status: 500) [Size: 251]
+[2K/system-admin.json    (Status: 500) [Size: 251]
+[2K/system-admin.txt     (Status: 500) [Size: 251]
+[2K/system-admin         (Status: 500) [Size: 251]
+[2K/system-administration (Status: 500) [Size: 251]
+[2K/system-administration.php (Status: 500) [Size: 251]
+[2K/system-administration.html (Status: 500) [Size: 251]
+[2K/system-admin.php     (Status: 500) [Size: 251]
+[2K/system-administration.json (Status: 500) [Size: 251]
+[2K/systems              (Status: 500) [Size: 251]
+[2K/systems.html         (Status: 500) [Size: 251]
+[2K/system-administration.txt (Status: 500) [Size: 251]
+[2K/systems.json         (Status: 500) [Size: 251]
+[2K/systems.txt          (Status: 500) [Size: 251]
+[2K/systems.php          (Status: 500) [Size: 251]
+[2K/sysuser              (Status: 500) [Size: 251]
+[2K/sysuser.html         (Status: 500) [Size: 251]
+[2K/sysuser.json         (Status: 500) [Size: 251]
+[2K/sysuser.php          (Status: 500) [Size: 251]
+[2K/sysuser.txt          (Status: 500) [Size: 251]
+[2K/szukaj               (Status: 500) [Size: 251]
+[2K/szukaj.json          (Status: 500) [Size: 251]
+[2K/szukaj.txt           (Status: 500) [Size: 251]
+[2K/szukaj.html          (Status: 500) [Size: 251]
+[2K/szukaj.php           (Status: 500) [Size: 251]
+[2K/t                    (Status: 500) [Size: 251]
+[2K/t.json               (Status: 500) [Size: 251]
+[2K/t.txt                (Status: 500) [Size: 251]
+[2K/t.php                (Status: 500) [Size: 251]
+[2K/t.html               (Status: 500) [Size: 251]
+[2K/T                    (Status: 500) [Size: 251]
+[2K/T.html               (Status: 500) [Size: 251]
+[2K/T.json               (Status: 500) [Size: 251]
+[2K/T.php                (Status: 500) [Size: 251]
+[2K/T.txt                (Status: 500) [Size: 251]
+[2K/t1                   (Status: 500) [Size: 251]
+[2K/t1.php               (Status: 500) [Size: 251]
+[2K/t1.html              (Status: 500) [Size: 251]
+[2K/t1.txt               (Status: 500) [Size: 251]
+[2K/t3lib.html           (Status: 500) [Size: 251]
+[2K/t3lib                (Status: 500) [Size: 251]
+[2K/t1.json              (Status: 500) [Size: 251]
+[2K/t3lib.php            (Status: 500) [Size: 251]
+[2K/t3lib.json           (Status: 500) [Size: 251]
+[2K/t3lib.txt            (Status: 500) [Size: 251]
+[2K/table.json           (Status: 500) [Size: 251]
+[2K/table.html           (Status: 500) [Size: 251]
+[2K/table                (Status: 500) [Size: 251]
+[2K/table.txt            (Status: 500) [Size: 251]
+[2K/table.php            (Status: 500) [Size: 251]
+[2K/tabs                 (Status: 500) [Size: 251]
+[2K/tabs.json            (Status: 500) [Size: 251]
+[2K/tabs.txt             (Status: 500) [Size: 251]
+[2K/tabs.php             (Status: 500) [Size: 251]
+[2K/tag.txt              (Status: 500) [Size: 251]
+[2K/tag                  (Status: 500) [Size: 251]
+[2K/tabs.html            (Status: 500) [Size: 251]
+[2K/tag.json             (Status: 500) [Size: 251]
+[2K/tag.html             (Status: 500) [Size: 251]
+[2K/tag.php              (Status: 500) [Size: 251]
+[2K/tagline.html         (Status: 500) [Size: 251]
+[2K/tagline              (Status: 500) [Size: 251]
+[2K/tagline.php          (Status: 500) [Size: 251]
+[2K/tagline.json         (Status: 500) [Size: 251]
+[2K/tagline.txt          (Status: 500) [Size: 251]
+[2K/tags                 (Status: 500) [Size: 251]
+[2K/tags.php             (Status: 500) [Size: 251]
+[2K/tags.json            (Status: 500) [Size: 251]
+[2K/tags.html            (Status: 500) [Size: 251]
+[2K/tags.txt             (Status: 500) [Size: 251]
+[2K/tail.html            (Status: 500) [Size: 251]
+[2K/tail                 (Status: 500) [Size: 251]
+[2K/tail.json            (Status: 500) [Size: 251]
+[2K/tail.txt             (Status: 500) [Size: 251]
+[2K/tail.php             (Status: 500) [Size: 251]

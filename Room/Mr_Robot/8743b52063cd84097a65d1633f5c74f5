@@ -1,0 +1,5 @@
+Usage:
+  haiti [options] <hash>
+  haiti samples (<ref> | <name>)
+  haiti -h | --help
+  haiti --version

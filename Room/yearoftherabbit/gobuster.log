@@ -1,0 +1,76 @@
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.59.8
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/15 13:54:55 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.php                 (Status: 403) [Size: 275]
+[2K/.html                (Status: 403) [Size: 275]
+[2K/.hta.html            (Status: 403) [Size: 275]
+[2K/.hta.json            (Status: 403) [Size: 275]
+[2K/.hta.txt             (Status: 403) [Size: 275]
+[2K/.hta                 (Status: 403) [Size: 275]
+[2K/.htaccess.html       (Status: 403) [Size: 275]
+[2K/.hta.php             (Status: 403) [Size: 275]
+[2K/.htaccess.php        (Status: 403) [Size: 275]
+[2K/.htaccess.txt        (Status: 403) [Size: 275]
+[2K/.htaccess.json       (Status: 403) [Size: 275]
+[2K/.htaccess            (Status: 403) [Size: 275]
+[2K/.htpasswd.php        (Status: 403) [Size: 275]
+[2K/.htpasswd            (Status: 403) [Size: 275]
+[2K/.htpasswd.txt        (Status: 403) [Size: 275]
+[2K/.htpasswd.json       (Status: 403) [Size: 275]
+[2K/.htpasswd.html       (Status: 403) [Size: 275]
+[2K/assets               (Status: 301) [Size: 309] [--> http://10.10.59.8/assets/]
+[2K/index.html           (Status: 200) [Size: 7853]
+[2K/index.html           (Status: 200) [Size: 7853]
+[2K/server-status        (Status: 403) [Size: 275]
+
+===============================================================
+2023/01/15 13:55:55 Finished
+===============================================================
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.59.8/assets
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              php,html,json,txt
+[+] Timeout:                 10s
+===============================================================
+2023/01/15 13:59:07 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.html                (Status: 403) [Size: 275]
+[2K/.php                 (Status: 403) [Size: 275]
+[2K/.hta                 (Status: 403) [Size: 275]
+[2K/.hta.html            (Status: 403) [Size: 275]
+[2K/.hta.json            (Status: 403) [Size: 275]
+[2K/.hta.txt             (Status: 403) [Size: 275]
+[2K/.htaccess            (Status: 403) [Size: 275]
+[2K/.hta.php             (Status: 403) [Size: 275]
+[2K/.htaccess.html       (Status: 403) [Size: 275]
+[2K/.htaccess.json       (Status: 403) [Size: 275]
+[2K/.htpasswd            (Status: 403) [Size: 275]
+[2K/.htpasswd.txt        (Status: 403) [Size: 275]
+[2K/.htaccess.php        (Status: 403) [Size: 275]
+[2K/.htpasswd.php        (Status: 403) [Size: 275]
+[2K/.htaccess.txt        (Status: 403) [Size: 275]
+[2K/.htpasswd.html       (Status: 403) [Size: 275]
+[2K/.htpasswd.json       (Status: 403) [Size: 275]
+
+===============================================================
+2023/01/15 14:00:24 Finished
+===============================================================
