@@ -1,0 +1,15 @@
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.249.155
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/15 19:45:34 Starting gobuster in directory enumeration mode
+===============================================================

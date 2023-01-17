@@ -1,0 +1,46 @@
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.190.161
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/17 10:41:32 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.php                 (Status: 403) [Size: 278]
+[2K/.html                (Status: 403) [Size: 278]
+[2K/.hta.json            (Status: 403) [Size: 278]
+[2K/.hta                 (Status: 403) [Size: 278]
+[2K/.hta.html            (Status: 403) [Size: 278]
+[2K/.hta.php             (Status: 403) [Size: 278]
+[2K/.hta.txt             (Status: 403) [Size: 278]
+[2K/.htaccess            (Status: 403) [Size: 278]
+[2K/.htaccess.html       (Status: 403) [Size: 278]
+[2K/.htaccess.json       (Status: 403) [Size: 278]
+[2K/.htpasswd.json       (Status: 403) [Size: 278]
+[2K/.htpasswd.txt        (Status: 403) [Size: 278]
+[2K/.htaccess.php        (Status: 403) [Size: 278]
+[2K/.htpasswd            (Status: 403) [Size: 278]
+[2K/.htaccess.txt        (Status: 403) [Size: 278]
+[2K/.htpasswd.html       (Status: 403) [Size: 278]
+[2K/.htpasswd.php        (Status: 403) [Size: 278]
+[2K/backup               (Status: 301) [Size: 315] [--> http://10.10.190.161/backup/]
+[2K/grid                 (Status: 301) [Size: 313] [--> http://10.10.190.161/grid/]
+[2K/index.html           (Status: 200) [Size: 11321]
+[2K/index.php            (Status: 200) [Size: 5732]
+[2K/index.html           (Status: 200) [Size: 11321]
+[2K/index.php            (Status: 200) [Size: 5732]
+[2K/javascripts          (Status: 301) [Size: 320] [--> http://10.10.190.161/javascripts/]
+[2K/javascript           (Status: 301) [Size: 319] [--> http://10.10.190.161/javascript/]
+[2K/message.txt          (Status: 200) [Size: 94]
+[2K/server-status        (Status: 403) [Size: 278]
+
+===============================================================
+2023/01/17 10:43:59 Finished
+===============================================================

@@ -18,11 +18,43 @@ Utilitaire :
 
 **Port : **nmap -sC -sV -A -oN nmap.log $IP
 
+
+
+Si rien ne marche ajouter l'option -Pn au début de nmap
+
+
+
 ## Reverse Shell
 
 [Github des différentes reverse Shell command](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology and Resources/Reverse Shell Cheatsheet.md#tools)]
 
-[Liste des exploit avec permission](https://gtfobins.github.io/)
+
+
+Stabiliser bash :
+
+```
+python -c 'import pty; pty.spawn("/bin/bash")'
+
+ctr+z
+
+stty raw -echo; fg
+```
+
+
+
+*Si accés a l'uppload de fichier penssé a upload un fichier reverse php ?*
+
+**Ne pas oublier d'écouter le porthttps://tryhackme.com/room/metasploitintro**
+
+```
+nc -lvp 4242
+```
+
+
+
+## Escalation Priviledge
+
+​	[Liste des exploit avec permission](https://gtfobins.github.io/)
 
 ```bash
 Find all SUID files: "fichier executable avec une autre perm que ton user"
@@ -50,28 +82,6 @@ python2 -m SimpleHTTPServer
 
 **PWnk!it    Exploit CVE-2021-4034**  [Github  source](https://github.com/ly4k/PwnKit)
 **LinPeass analyse des faille dun système** [Github Source](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
-
-
-
-Stabiliser bash :
-
-```
-python -c 'import pty; pty.spawn("/bin/bash")'
-
-ctr+z
-
-stty raw -echo; fg
-```
-
-
-
-*Si accés a l'uppload de fichier penssé a upload un fichier reverse php ?*
-
-**Ne pas oublier d'écouter le porthttps://tryhackme.com/room/metasploitintro**
-
-```
-nc -lvp 4242
-```
 
 
 
@@ -150,3 +160,22 @@ use *auxiliary/scanner/netbios/nbname*
 medusa -h $IP -U user.txt -P ./password.txt  -M ftp
 **hydra -L username.txt -P password.txt ftp://$IP**
 
+Mfsconsole :
+
+```bash
+auxiliary(scanner/ftp/ftp_login)
+
+PASS_FILE /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt
+USER_FILE /usr/share/metasploit-framework/data/wordlists/unix_users.txt   
+```
+
+Montrer fichier caché sur ftp :
+
+**dir -la**
+
+*
+
+## SMB
+
+nmblookup -A $IP
+smbclien -NL $IP
