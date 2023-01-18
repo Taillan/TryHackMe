@@ -1,0 +1,31 @@
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.166.234
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/big.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/18 09:39:56 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.htaccess.html       (Status: 403) [Size: 278]
+[2K/.htaccess.json       (Status: 403) [Size: 278]
+[2K/.htaccess.php        (Status: 403) [Size: 278]
+[2K/.htaccess            (Status: 403) [Size: 278]
+[2K/.htpasswd.html       (Status: 403) [Size: 278]
+[2K/.htpasswd.json       (Status: 403) [Size: 278]
+[2K/.htaccess.txt        (Status: 403) [Size: 278]
+[2K/.htpasswd            (Status: 403) [Size: 278]
+[2K/.htpasswd.txt        (Status: 403) [Size: 278]
+[2K/.htpasswd.php        (Status: 403) [Size: 278]
+[2K/index.php            (Status: 200) [Size: 218]
+[2K/server-status        (Status: 403) [Size: 278]
+
+===============================================================
+2023/01/18 09:54:13 Finished
+===============================================================

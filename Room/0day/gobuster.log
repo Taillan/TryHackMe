@@ -1,0 +1,124 @@
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.216.203
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/17 14:54:09 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.html                (Status: 403) [Size: 285]
+[2K/.hta                 (Status: 403) [Size: 284]
+[2K/.hta.html            (Status: 403) [Size: 289]
+[2K/.htaccess.php        (Status: 403) [Size: 293]
+[2K/.hta.json            (Status: 403) [Size: 289]
+[2K/.htaccess.txt        (Status: 403) [Size: 293]
+[2K/.hta.php             (Status: 403) [Size: 288]
+[2K/.htaccess            (Status: 403) [Size: 289]
+[2K/.hta.txt             (Status: 403) [Size: 288]
+[2K/.htaccess.html       (Status: 403) [Size: 294]
+[2K/.htaccess.json       (Status: 403) [Size: 294]
+[2K/.htpasswd            (Status: 403) [Size: 289]
+[2K/.htpasswd.json       (Status: 403) [Size: 294]
+[2K/.htpasswd.php        (Status: 403) [Size: 293]
+[2K/.htpasswd.txt        (Status: 403) [Size: 293]
+[2K/.htpasswd.html       (Status: 403) [Size: 294]
+[2K/admin                (Status: 301) [Size: 313] [--> http://10.10.216.203/admin/]
+[2K/backup               (Status: 301) [Size: 314] [--> http://10.10.216.203/backup/]
+[2K/cgi-bin              (Status: 301) [Size: 315] [--> http://10.10.216.203/cgi-bin/]
+[2K/cgi-bin/             (Status: 403) [Size: 288]
+[2K/cgi-bin/.html        (Status: 403) [Size: 293]
+[2K/css                  (Status: 301) [Size: 311] [--> http://10.10.216.203/css/]
+[2K/img                  (Status: 301) [Size: 311] [--> http://10.10.216.203/img/]
+[2K/index.html           (Status: 200) [Size: 3025]
+[2K/index.html           (Status: 200) [Size: 3025]
+[2K/js                   (Status: 301) [Size: 310] [--> http://10.10.216.203/js/]
+[2K/robots.txt           (Status: 200) [Size: 38]
+[2K/robots.txt           (Status: 200) [Size: 38]
+[2K/secret               (Status: 301) [Size: 314] [--> http://10.10.216.203/secret/]
+[2K/server-status        (Status: 403) [Size: 293]
+[2K/uploads              (Status: 301) [Size: 315] [--> http://10.10.216.203/uploads/]
+
+===============================================================
+2023/01/17 14:55:20 Finished
+===============================================================
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.216.203/admin
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              php,html,json,txt
+[+] Timeout:                 10s
+===============================================================
+2023/01/17 15:17:06 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.html                (Status: 403) [Size: 291]
+[2K/.hta                 (Status: 403) [Size: 290]
+[2K/.hta.html            (Status: 403) [Size: 295]
+[2K/.hta.txt             (Status: 403) [Size: 294]
+[2K/.hta.php             (Status: 403) [Size: 294]
+[2K/.hta.json            (Status: 403) [Size: 295]
+[2K/.htaccess            (Status: 403) [Size: 295]
+[2K/.htaccess.html       (Status: 403) [Size: 300]
+[2K/.htaccess.php        (Status: 403) [Size: 299]
+[2K/.htaccess.txt        (Status: 403) [Size: 299]
+[2K/.htaccess.json       (Status: 403) [Size: 300]
+[2K/.htpasswd.json       (Status: 403) [Size: 300]
+[2K/.htpasswd            (Status: 403) [Size: 295]
+[2K/.htpasswd.php        (Status: 403) [Size: 299]
+[2K/.htpasswd.txt        (Status: 403) [Size: 299]
+[2K/.htpasswd.html       (Status: 403) [Size: 300]
+[2K/index.html           (Status: 200) [Size: 0]
+[2K/index.html           (Status: 200) [Size: 0]
+
+===============================================================
+2023/01/17 15:18:08 Finished
+===============================================================
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.216.203/backup
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              json,txt,php,html
+[+] Timeout:                 10s
+===============================================================
+2023/01/17 15:21:02 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.html                (Status: 403) [Size: 292]
+[2K/.hta.html            (Status: 403) [Size: 296]
+[2K/.hta                 (Status: 403) [Size: 291]
+[2K/.hta.json            (Status: 403) [Size: 296]
+[2K/.hta.txt             (Status: 403) [Size: 295]
+[2K/.htaccess.html       (Status: 403) [Size: 301]
+[2K/.htaccess.json       (Status: 403) [Size: 301]
+[2K/.hta.php             (Status: 403) [Size: 295]
+[2K/.htaccess.php        (Status: 403) [Size: 300]
+[2K/.htaccess            (Status: 403) [Size: 296]
+[2K/.htaccess.txt        (Status: 403) [Size: 300]
+[2K/.htpasswd            (Status: 403) [Size: 296]
+[2K/.htpasswd.html       (Status: 403) [Size: 301]
+[2K/.htpasswd.json       (Status: 403) [Size: 301]
+[2K/.htpasswd.php        (Status: 403) [Size: 300]
+[2K/.htpasswd.txt        (Status: 403) [Size: 300]
+[2K/index.html           (Status: 200) [Size: 1767]
+[2K/index.html           (Status: 200) [Size: 1767]
+
+===============================================================
+2023/01/17 15:22:30 Finished
+===============================================================
