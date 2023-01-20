@@ -18,6 +18,10 @@ gobuster dir -k -x txt,json,php,html -u http://$IP -w /opt/wordlists/common.txt
 gobuster fuzz --exclude-length XXXX -b 404 -k -u http://$IP/fuzz -w /opt/wordlist/common.txt
 ```
 
+***Rechercher recursivement si tu trouve rien***
+
+
+
 **Port : **
 
 ```
@@ -31,6 +35,16 @@ nikto -h $IP
 ```
 
 Si rien ne marche ajouter l'option -Pn au début de nmap
+
+
+
+## Quand cest la galère
+
+regarde les ports scanné
+
+scan recursivement les folder
+
+avec big.txt
 
 
 
@@ -99,12 +113,23 @@ python2 -m SimpleHTTPServer
 
 ## Hash
 
+```
 haiti -e 42f749ade7f9e195bf475f37a44cafcb
+```
+
 https://crackstation.net/
 
+```
 hashcat -m XXX(look man) -a 0 HASH.hash /opt/wordlists/rockyou.txt
+```
 
 JohnTheReapper
+
+```
+john passHash --wordlist=/opt/wordlists/rockyou.txt 
+```
+
+
 
 ## Reverse Engenering
 
@@ -178,7 +203,7 @@ use *auxiliary/scanner/netbios/nbname*
 medusa -h $IP -U user.txt -P ./password.txt  -M ftp
 **hydra -L username.txt -P password.txt ftp://$IP**
 
-Mfsconsole :
+Mfsconsole :http://10.10.95.58/Lianyu.png
 
 ```bash
 auxiliary(scanner/ftp/ftp_login)
@@ -237,9 +262,18 @@ chmod +600 id_rsa
 ssh user@$IP -i id_rsa
 ```
 
-## BRUTE Force WEB LOG
+## BRUTE Force
 
 ```BASH
 hydra -l molly -P rockyou.txt 10.10.219.212 http-post-form "/admin/index.php:username=^USER^&password=^PASS^:F=Your password is incorrect" -V
+```
+
+**CRUNCH** 
+
+Generate a dictionary file containing words with a minimum and maximum length of 6 (`6 6`) using the given characters (`0123456789abcdef`), saving the output to a file (`-0 6chars.txt`):
+
+```
+crunch 6 6 0123456789abcdef -o 6chars.txt
+Crunch will now generate the following amount of data: 117440512 bytes
 ```
 

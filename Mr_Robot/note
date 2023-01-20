@@ -1,7 +1,0 @@
-catch /admin/index.html
-
-Cookie:
-	s_cc=true; s_fid=3F19CE13F0DA56D3-3CEDCA160F2597FB; s_nr=1664960167976
-Console:
-	0: "ROUTE:"
-	1: "default"

@@ -1,0 +1,97 @@
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.165.32
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/big.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              txt,php,html,json
+[+] Timeout:                 10s
+===============================================================
+2023/01/18 11:53:26 Starting gobuster in directory enumeration mode
+===============================================================
+
+[2K/.htaccess            (Status: 403) [Size: 199]
+
+[2K/.htaccess.json       (Status: 403) [Size: 199]
+
+[2K/.htaccess.txt        (Status: 403) [Size: 199]
+
+[2K/.htaccess.php        (Status: 403) [Size: 199]
+
+[2K/.htpasswd.php        (Status: 403) [Size: 199]
+
+[2K/.htpasswd.html       (Status: 403) [Size: 199]
+
+[2K/.htpasswd.txt        (Status: 403) [Size: 199]
+
+[2K/.htpasswd            (Status: 403) [Size: 199]
+
+[2K/.htpasswd.json       (Status: 403) [Size: 199]
+
+[2K/.htaccess.html       (Status: 403) [Size: 199]
+
+[2K/index.html           (Status: 200) [Size: 2506]
+
+[2K/island               (Status: 301) [Size: 235] [--> http://10.10.165.32/island/]
+
+[2K/server-status        (Status: 403) [Size: 199]
+
+===============================================================
+2023/01/18 11:57:38 Finished
+===============================================================
+
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.95.58/island
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/big.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/18 13:13:37 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.htaccess            (Status: 403) [Size: 199]
+[2K/.htaccess.html       (Status: 403) [Size: 199]
+[2K/.htaccess.txt        (Status: 403) [Size: 199]
+[2K/.htpasswd            (Status: 403) [Size: 199]
+[2K/.htaccess.json       (Status: 403) [Size: 199]
+[2K/.htaccess.php        (Status: 403) [Size: 199]
+[2K/.htpasswd.html       (Status: 403) [Size: 199]
+[2K/.htpasswd.php        (Status: 403) [Size: 199]
+[2K/.htpasswd.txt        (Status: 403) [Size: 199]
+[2K/.htpasswd.json       (Status: 403) [Size: 199]
+[2K/index.html           (Status: 200) [Size: 345]
+
+===============================================================
+2023/01/18 13:18:42 Finished
+===============================================================
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.95.58/island
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                ./test.list
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Extensions:              html,json,txt,php
+[+] Timeout:                 10s
+===============================================================
+2023/01/18 13:27:56 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.html                (Status: 403) [Size: 199]
+[2K/2100                 (Status: 301) [Size: 239] [--> http://10.10.95.58/island/2100/]
+
+===============================================================
+2023/01/18 13:31:20 Finished
+===============================================================

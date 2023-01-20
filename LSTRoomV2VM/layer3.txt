@@ -1,1 +1,0 @@
-1. Find a file called layer2.txt, its password is tony.
