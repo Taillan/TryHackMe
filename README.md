@@ -34,7 +34,7 @@ nmap -sC -sV -A -oN nmap.log $IP
 nikto -h $IP
 ```
 
-Si rien ne marche ajouter l'option -Pn au début de nmap
+Si rien ne marche ajouter l'option -Pn au début de  nmap
 
 
 
@@ -46,12 +46,12 @@ scan recursivement les folder
 
 avec big.txt
 
+regarder crontab
 
 
 ## Reverse Shell
 
-[Github des différentes reverse Shell command](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology and Resources/Reverse Shell Cheatsheet.md#tools)]
-
+[Github des différentes reverse Shell command](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 
 
 Stabiliser bash :
@@ -62,6 +62,8 @@ python -c 'import pty; pty.spawn("/bin/bash")'
 ctr+z
 
 stty raw -echo; fg
+
+ENTER
 ```
 
 
