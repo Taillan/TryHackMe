@@ -26,6 +26,10 @@ gobuster fuzz --exclude-length XXXX -b 404 -k -u http://$IP/fuzz -w /opt/wordlis
 
 ```
 nmap -sC -sV -A -oN nmap.log $IP
+
+#OU en local
+
+ss -nlpt | grep 22 #regarde les port ouvert comprennant 22 (ssh)
 ```
 
 **vulnerability :** 
@@ -36,6 +40,12 @@ nikto -h $IP
 
 Si rien ne marche ajouter l'option -Pn au début de  nmap
 
+**Connexion SSH**
+```bash
+ssh -i id_rsa user@$IP -p 22
+```
+SI code d'erreur ``no matching host key type found. Their offer: ssh-rsa``
+Ajouter ``-oHostKeyAlgorithms=+ssh-rsa``
 
 
 ## Quand cest la galère
